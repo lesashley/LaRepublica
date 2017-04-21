@@ -1,0 +1,98 @@
+body{
+  background-color: rgb(187, 187, 187);
+}
+header{
+  position: fixed;
+  margin: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.sprite{
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+}
+nav:nth-child(1){
+  background-color: rgb(224, 1, 9);
+  margin: 0;
+}
+.sprite-logo{
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  background-position: 5px -445px;
+}
+span.circle{
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 20px;
+  padding-top: 0.5%;
+  box-sizing: border-box;
+}
+.boton{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 20px;
+  position: relative;
+  right: 0;
+}
+nav:nth-child(2){
+  display: inline-block;
+  background-color: #5c5c66;
+  width: 100%;
+}
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  margin: 4px 10px;
+}
+ul{
+  text-align: center;
+}
+.mayus-nav{
+  text-transform: uppercase;
+}
+
+section{
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+  width: 90%;
+  padding-top: 160px;
+  margin-bottom: 0;
+}
+#content-left{
+  position: absolute;
+  left: 0;
+  width: 40%;
+  padding:
+}
+#content-rigth{
+  position: absolute;
+  right: 0;
+  width: 40%
+}
+.ar-principal{
+  background: gray;
+  display: inline-block;
+  margin: 5px 0;
+}
+.ar-secundario{
+  display: inline-block;
+  width: 49.5%;
+  background-color: gray;
+  /*margin: 2px;*/
+}
+.ar-tercero{
+
+}
+.libertad{
+  background-color: red;
+}

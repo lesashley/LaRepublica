@@ -1,0 +1,168 @@
+body{
+  background-color: rgb(187, 187, 187);
+}
+header{
+  position: fixed;
+  margin: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.sprite{
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+}
+nav:nth-child(1){
+  background-color: rgb(224, 1, 9);
+  padding-left: 220px;
+}
+div.sprite-logo{
+  display: inline-block;
+  margin-top: 20px;
+  width: 300px;
+  height: 60px;
+  background-position: -3px -445px;
+}
+
+span.circle{
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 10px 5px;;
+  padding-top: 0.6%;
+  box-sizing: border-box;
+  position: inherit;
+}
+.circle a{
+  display: inline-block;
+}
+.color-icon{
+  color: red;
+  text-decoration: none;
+}
+.boton{
+  display: inline-block;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 20px;
+  color: white;
+}
+.boton a{
+  text-decoration: none;
+}
+nav:nth-child(2){
+  display: inline-block;
+  background-color: #5c5c66;
+  width: 100%;
+}
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  margin: 4px 5px;
+}
+ul{
+  text-align: center;
+}
+.mayus-nav{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+}
+
+section{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+  width: 75%;
+  padding-top: 170px;
+  margin-bottom: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+#content-left{
+  display: inline-block;
+  margin-right: 30px;
+  width: 70%;
+}
+#content-rigth{
+  display: inline-block;
+  position: relative;
+  width: 25%;
+}
+article div{
+  display: inline-block;
+  color: white;
+}
+article li{
+  display: inline-block;
+}
+article .text-principal{
+  width: 20%;
+  display: inline-block;
+}
+
+.img-principal{
+  display: inline-block;
+  margin-left: 30px;
+}
+.ar-principal{
+  position: relative;
+  background: #333340;
+  display: inline-block;
+  margin: 5px 0;
+  box-sizing: border-box;
+  padding-left: 15px;
+  width: 90%;
+}
+
+.sprite-odebretch{
+  position: relative;
+  display: inline-block;
+  width: 425px;
+  height: 250px;
+  background-position: -570px -5px;
+}
+div h1{
+  width: 100%;
+  padding: 0 20px;
+
+}
+.ar-secundario{
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  background-color: #333340;
+}
+
+.sprite-alejandra{
+  display: inline-block;
+  width: 305px;
+  height: 165px;
+  background-position: -260px -5px;
+}
+.sprite-corea{
+  display: inline-block;
+  width: 305px;
+  height: 165px;
+  background-position: -260px -277px;
+}
+.libertad{
+  background-color: red;
+}
+.ar-cuarto{
+  background-color: rgb(48, 98, 227);
+}
+
+.sprite-publicidad{
+  width: 200px;
+  height: 200px;
+  background-position: -300px -150px;
+}

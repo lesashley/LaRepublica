@@ -12,17 +12,20 @@ header{
 .sprite{
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
+  z-index: 400;
 }
 nav:nth-child(1){
   background-color: rgb(224, 1, 9);
-  margin: 0;
+  padding:  0 90px;
 }
-.sprite-logo{
+div.sprite-logo{
   display: inline-block;
+  margin-top: 20px;
   width: 300px;
   height: 60px;
   background-position: 5px -445px;
 }
+
 span.circle{
   display: inline-block;
   text-align: center;
@@ -30,17 +33,27 @@ span.circle{
   height: 30px;
   border-radius: 15px;
   background-color: white;
-  margin: 20px;
-  padding-top: 0.5%;
+  margin: 10px 20px;;
+  padding-top: 0.6%;
   box-sizing: border-box;
+  position: inherit;
+}
+.circle a{
+  display: inline-block;
+}
+.color-icon{
+  color: red;
+  text-decoration: none;
 }
 .boton{
   display: inline-block;
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 7px;
   border-radius: 20px;
-  position: relative;
-  right: 0;
+  color: white;
+}
+.boton a{
+  text-decoration: none;
 }
 nav:nth-child(2){
   display: inline-block;
@@ -58,41 +71,69 @@ ul{
 }
 .mayus-nav{
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
 }
 
 section{
+  box-sizing: border-box;
   position: relative;
   margin: 0 auto;
   background-color: white;
   width: 90%;
-  padding-top: 160px;
+  padding-top: 170px;
   margin-bottom: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+
 }
 #content-left{
-  position: absolute;
-  left: 0;
-  width: 40%;
-  padding:
+  display: inline-block;
+  margin-right: 30px;
+  width: 70%;
 }
 #content-rigth{
-  position: absolute;
-  right: 0;
-  width: 40%
+  display: inline-block;
+  position: relative;
+  width: 25%;
+}
+article div{
+  display: inline-block;
+}
+article ul{
+  display: inline-block;
+}
+h2{
+  width: 21%;
+  display: inline-block;
+}
+.img-principal{
+  display: inline-block;
 }
 .ar-principal{
   background: gray;
   display: inline-block;
   margin: 5px 0;
 }
+
+.sprite-odebretch{
+  width: 200px;
+  height: 100px;
+  background-position: 400px 5px;
+}
 .ar-secundario{
   display: inline-block;
   width: 49.5%;
   background-color: gray;
-  /*margin: 2px;*/
 }
-.ar-tercero{
+.sprite-alejandra{
+  width: 200px;
+  height: 100px;
+  background-position: 200px 3px;
+}
 
-}
 .libertad{
   background-color: red;
+}
+.ar-cuarto{
+  background-color: blue;
 }

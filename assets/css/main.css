@@ -12,7 +12,8 @@ header{
 .sprite{
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
-  z-index: 400;
+  /*z-index: 400;*/
+  /*position: absolute;*/
 }
 nav:nth-child(1){
   background-color: rgb(224, 1, 9);
@@ -72,6 +73,7 @@ ul{
 .mayus-nav{
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
 }
 
 section{
@@ -136,4 +138,11 @@ h2{
 }
 .ar-cuarto{
   background-color: blue;
+}
+
+.sprite-publicidad{
+  width: 200px;
+  height: 200px;
+  background-position: -300px -150px;
+  /*background-color: red;*/
 }

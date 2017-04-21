@@ -12,19 +12,17 @@ header{
 .sprite{
   background-image: url("../images/sprite.png");
   background-repeat: no-repeat;
-  /*z-index: 400;*/
-  /*position: absolute;*/
 }
 nav:nth-child(1){
   background-color: rgb(224, 1, 9);
-  padding:  0 90px;
+  padding-left: 220px;
 }
 div.sprite-logo{
   display: inline-block;
   margin-top: 20px;
   width: 300px;
   height: 60px;
-  background-position: 5px -445px;
+  background-position: -3px -445px;
 }
 
 span.circle{
@@ -34,7 +32,7 @@ span.circle{
   height: 30px;
   border-radius: 15px;
   background-color: white;
-  margin: 10px 20px;;
+  margin: 10px 5px;;
   padding-top: 0.6%;
   box-sizing: border-box;
   position: inherit;
@@ -65,7 +63,7 @@ nav ul li{
   display: inline-block;
   list-style-type: none;
   color: white;
-  margin: 4px 10px;
+  margin: 4px 5px;
 }
 ul{
   text-align: center;
@@ -73,15 +71,16 @@ ul{
 .mayus-nav{
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 section{
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   position: relative;
   margin: 0 auto;
   background-color: white;
-  width: 90%;
+  width: 75%;
   padding-top: 170px;
   margin-bottom: 0;
   padding-right: 15px;
@@ -100,49 +99,70 @@ section{
 }
 article div{
   display: inline-block;
+  color: white;
 }
-article ul{
+article li{
   display: inline-block;
 }
-h2{
-  width: 21%;
+article .text-principal{
+  width: 20%;
   display: inline-block;
 }
+
 .img-principal{
   display: inline-block;
+  margin-left: 30px;
 }
 .ar-principal{
-  background: gray;
+  position: relative;
+  background: #333340;
   display: inline-block;
   margin: 5px 0;
+  box-sizing: border-box;
+  padding-left: 15px;
+  width: 90%;
 }
 
 .sprite-odebretch{
-  width: 200px;
-  height: 100px;
-  background-position: 400px 5px;
+  position: relative;
+  display: inline-block;
+  width: 425px;
+  height: 250px;
+  background-position: -570px -5px;
+}
+div h1{
+  width: 100%;
+  padding: 0 20px;
+
 }
 .ar-secundario{
+  position: relative;
   display: inline-block;
-  width: 49.5%;
-  background-color: gray;
-}
-.sprite-alejandra{
-  width: 200px;
-  height: 100px;
-  background-position: 200px 3px;
+  width: 45%;
+  background-color: #333340;
 }
 
+.sprite-alejandra{
+  display: inline-block;
+  width: 305px;
+  height: 165px;
+  background-position: -260px -5px;
+}
+.sprite-corea{
+  display: inline-block;
+  width: 305px;
+  height: 165px;
+  background-position: -260px -277px;
+}
 .libertad{
   background-color: red;
 }
 .ar-cuarto{
-  background-color: blue;
+  background-color: rgb(48, 98, 227);
 }
 
 .sprite-publicidad{
   width: 200px;
   height: 200px;
   background-position: -300px -150px;
-  /*background-color: red;*/
 }
